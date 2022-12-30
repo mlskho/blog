@@ -1,0 +1,14 @@
+{% extends "Blogs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+  	<h1 class="display-3">Post your daily adventures.</h1>
+  	
+  	  	<p class="lead">Blog is a page where I write down my daily thoughts & stories.</p>
+  	
+  	<a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+  			role="button">Register &raquo;</a>
+  </div>
+{% endblock page_header %}
+
+
